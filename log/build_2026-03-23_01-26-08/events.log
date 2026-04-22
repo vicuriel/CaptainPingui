@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000498] (pingui_controller) JobQueued: {'identifier': 'pingui_controller', 'dependencies': OrderedDict()}
+[0.000785] (sensores) JobQueued: {'identifier': 'sensores', 'dependencies': OrderedDict()}
+[0.002097] (pingui_controller) JobStarted: {'identifier': 'pingui_controller'}
+[0.053071] (sensores) JobStarted: {'identifier': 'sensores'}
+[0.101081] (-) TimerEvent: {}
+[0.203812] (-) TimerEvent: {}
+[0.304530] (-) TimerEvent: {}
+[0.405261] (-) TimerEvent: {}
+[0.505850] (-) TimerEvent: {}
+[0.606496] (-) TimerEvent: {}
+[0.707135] (-) TimerEvent: {}
+[0.807763] (-) TimerEvent: {}
+[0.908333] (-) TimerEvent: {}
+[1.008910] (-) TimerEvent: {}
+[1.109688] (-) TimerEvent: {}
+[1.210631] (-) TimerEvent: {}
+[1.311340] (-) TimerEvent: {}
+[1.412028] (-) TimerEvent: {}
+[1.512758] (-) TimerEvent: {}
+[1.613366] (-) TimerEvent: {}
+[1.714126] (-) TimerEvent: {}
+[1.814811] (-) TimerEvent: {}
+[1.915514] (-) TimerEvent: {}
+[2.016086] (-) TimerEvent: {}
+[2.116711] (-) TimerEvent: {}
+[2.217489] (-) TimerEvent: {}
+[2.318575] (-) TimerEvent: {}
+[2.420034] (-) TimerEvent: {}
+[2.520730] (-) TimerEvent: {}
+[2.622603] (-) TimerEvent: {}
+[2.723605] (-) TimerEvent: {}
+[2.824369] (-) TimerEvent: {}
+[2.925022] (-) TimerEvent: {}
+[3.025711] (-) TimerEvent: {}
+[3.128378] (-) TimerEvent: {}
+[3.229085] (-) TimerEvent: {}
+[3.329854] (-) TimerEvent: {}
+[3.430581] (-) TimerEvent: {}
+[3.531190] (-) TimerEvent: {}
+[3.631851] (-) TimerEvent: {}
+[3.732533] (-) TimerEvent: {}
+[3.833180] (-) TimerEvent: {}
+[3.933812] (-) TimerEvent: {}
+[4.036360] (-) TimerEvent: {}
+[4.137169] (-) TimerEvent: {}
+[4.237832] (-) TimerEvent: {}
+[4.338540] (-) TimerEvent: {}
+[4.440482] (-) TimerEvent: {}
+[4.541180] (-) TimerEvent: {}
+[4.641901] (-) TimerEvent: {}
+[4.742637] (-) TimerEvent: {}
+[4.845423] (-) TimerEvent: {}
+[4.946118] (-) TimerEvent: {}
+[5.046870] (-) TimerEvent: {}
+[5.147621] (-) TimerEvent: {}
+[5.249890] (-) TimerEvent: {}
+[5.352041] (-) TimerEvent: {}
+[5.453581] (-) TimerEvent: {}
+[5.554583] (-) TimerEvent: {}
+[5.655473] (-) TimerEvent: {}
+[5.757201] (-) TimerEvent: {}
+[5.859326] (-) TimerEvent: {}
+[5.897351] (pingui_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/pingui_controller', 'build', '--build-base', '/home/captainp/brain_captainp/src/build/pingui_controller/build', 'install', '--record', '/home/captainp/brain_captainp/src/build/pingui_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/captainp/brain_captainp/src/pingui_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'captainp', 'SSH_AGENT_PID': '3334', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/captainp', 'OLDPWD': '/home/captainp/brain_captainp/src/sensores', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-hlHPQiaSAI,guid=2a7d6daf65fa32f3bea6248069c05a95', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/captainp/.cache/keyring-CAZOM3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/captainp/brain_captainp/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'captainp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/CaptainP:@/tmp/.ICE-unix/3132,unix/CaptainP:/tmp/.ICE-unix/3132', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3b295e3_d4fe_4c73_81da_f7e0712bf9fd', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/home/captainp/.cache/keyring-CAZOM3/ssh', 'AMENT_PREFIX_PATH': '/home/captainp/brain_captainp/install/pingui_controller:/opt/ros/jazzy', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/captainp/brain_captainp/src/build/pingui_controller', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:/home/captainp/brain_captainp/install/pingui_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.915544] (sensores) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/sensores', 'build', '--build-base', '/home/captainp/brain_captainp/src/build/sensores/build', 'install', '--record', '/home/captainp/brain_captainp/src/build/sensores/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/captainp/brain_captainp/src/sensores', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'captainp', 'SSH_AGENT_PID': '3334', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/captainp', 'OLDPWD': '/home/captainp/brain_captainp/src/sensores', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-hlHPQiaSAI,guid=2a7d6daf65fa32f3bea6248069c05a95', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/captainp/.cache/keyring-CAZOM3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/captainp/brain_captainp/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'captainp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/CaptainP:@/tmp/.ICE-unix/3132,unix/CaptainP:/tmp/.ICE-unix/3132', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d3b295e3_d4fe_4c73_81da_f7e0712bf9fd', 'DISPLAY': ':10.0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.80', 'SSH_AUTH_SOCK': '/home/captainp/.cache/keyring-CAZOM3/ssh', 'AMENT_PREFIX_PATH': '/home/captainp/brain_captainp/install/pingui_controller:/opt/ros/jazzy', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/captainp/brain_captainp/src/build/sensores', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/captainp/brain_captainp/src/build/sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:/home/captainp/brain_captainp/install/pingui_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.959444] (-) TimerEvent: {}
+[6.062620] (-) TimerEvent: {}
+[6.166546] (-) TimerEvent: {}
+[6.267364] (-) TimerEvent: {}
+[6.368208] (-) TimerEvent: {}
+[6.469029] (-) TimerEvent: {}
+[6.569753] (-) TimerEvent: {}
+[6.670397] (-) TimerEvent: {}
+[6.773172] (-) TimerEvent: {}
+[6.873821] (-) TimerEvent: {}
+[6.974505] (-) TimerEvent: {}
+[7.075135] (-) TimerEvent: {}
+[7.175853] (-) TimerEvent: {}
+[7.276549] (-) TimerEvent: {}
+[7.377153] (-) TimerEvent: {}
+[7.429914] (sensores) StdoutLine: {'line': b'running egg_info\n'}
+[7.431095] (pingui_controller) StdoutLine: {'line': b'running egg_info\n'}
+[7.431997] (pingui_controller) StdoutLine: {'line': b'creating ../build/pingui_controller/pingui_controller.egg-info\n'}
+[7.432610] (sensores) StdoutLine: {'line': b'creating ../build/sensores/sensores.egg-info\n'}
+[7.477338] (-) TimerEvent: {}
+[7.544915] (sensores) StdoutLine: {'line': b'writing ../build/sensores/sensores.egg-info/PKG-INFO\n'}
+[7.545944] (pingui_controller) StdoutLine: {'line': b'writing ../build/pingui_controller/pingui_controller.egg-info/PKG-INFO\n'}
+[7.546854] (sensores) StdoutLine: {'line': b'writing dependency_links to ../build/sensores/sensores.egg-info/dependency_links.txt\n'}
+[7.547723] (pingui_controller) StdoutLine: {'line': b'writing dependency_links to ../build/pingui_controller/pingui_controller.egg-info/dependency_links.txt\n'}
+[7.548269] (sensores) StdoutLine: {'line': b'writing entry points to ../build/sensores/sensores.egg-info/entry_points.txt\n'}
+[7.549354] (pingui_controller) StdoutLine: {'line': b'writing entry points to ../build/pingui_controller/pingui_controller.egg-info/entry_points.txt\n'}
+[7.549909] (sensores) StdoutLine: {'line': b'writing requirements to ../build/sensores/sensores.egg-info/requires.txt\n'}
+[7.550930] (sensores) StdoutLine: {'line': b'writing top-level names to ../build/sensores/sensores.egg-info/top_level.txt\n'}
+[7.551827] (pingui_controller) StdoutLine: {'line': b'writing requirements to ../build/pingui_controller/pingui_controller.egg-info/requires.txt\n'}
+[7.552485] (pingui_controller) StdoutLine: {'line': b'writing top-level names to ../build/pingui_controller/pingui_controller.egg-info/top_level.txt\n'}
+[7.553072] (sensores) StdoutLine: {'line': b"writing manifest file '../build/sensores/sensores.egg-info/SOURCES.txt'\n"}
+[7.553596] (pingui_controller) StdoutLine: {'line': b"writing manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'\n"}
+[7.577533] (-) TimerEvent: {}
+[7.678192] (-) TimerEvent: {}
+[7.778865] (-) TimerEvent: {}
+[7.827749] (sensores) StdoutLine: {'line': b"reading manifest file '../build/sensores/sensores.egg-info/SOURCES.txt'\n"}
+[7.830940] (sensores) StdoutLine: {'line': b"writing manifest file '../build/sensores/sensores.egg-info/SOURCES.txt'\n"}
+[7.832194] (sensores) StdoutLine: {'line': b'running build\n'}
+[7.832790] (sensores) StdoutLine: {'line': b'running build_py\n'}
+[7.833461] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/build/sensores/build\n'}
+[7.834354] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/build/sensores/build/lib\n'}
+[7.835167] (pingui_controller) StdoutLine: {'line': b"reading manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'\n"}
+[7.835906] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores\n'}
+[7.836878] (sensores) StdoutLine: {'line': b'copying sensores/__init__.py -> /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores\n'}
+[7.838387] (pingui_controller) StdoutLine: {'line': b"writing manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'\n"}
+[7.839214] (pingui_controller) StdoutLine: {'line': b'running build\n'}
+[7.839840] (pingui_controller) StdoutLine: {'line': b'running build_py\n'}
+[7.840673] (sensores) StdoutLine: {'line': b'copying sensores/imu.py -> /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores\n'}
+[7.841884] (sensores) StdoutLine: {'line': b'copying sensores/bumper.py -> /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores\n'}
+[7.842561] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/build/pingui_controller/build\n'}
+[7.843379] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/build/pingui_controller/build/lib\n'}
+[7.844307] (sensores) StdoutLine: {'line': b'copying sensores/gps.py -> /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores\n'}
+[7.845011] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller\n'}
+[7.845476] (pingui_controller) StdoutLine: {'line': b'copying pingui_controller/__init__.py -> /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller\n'}
+[7.845957] (pingui_controller) StdoutLine: {'line': b'copying pingui_controller/first_node.py -> /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller\n'}
+[7.846588] (sensores) StdoutLine: {'line': b'copying sensores/ultrasonico.py -> /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores\n'}
+[7.847437] (pingui_controller) StdoutLine: {'line': b'running install\n'}
+[7.848020] (sensores) StdoutLine: {'line': b'running install\n'}
+[7.873793] (pingui_controller) StdoutLine: {'line': b'running install_lib\n'}
+[7.875510] (sensores) StdoutLine: {'line': b'running install_lib\n'}
+[7.879024] (-) TimerEvent: {}
+[7.981643] (-) TimerEvent: {}
+[7.996053] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller\n'}
+[7.997792] (pingui_controller) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller/__init__.py -> /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller\n'}
+[8.000451] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores\n'}
+[8.001030] (sensores) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores/__init__.py -> /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores\n'}
+[8.004790] (sensores) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores/imu.py -> /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores\n'}
+[8.005345] (sensores) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores/bumper.py -> /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores\n'}
+[8.007908] (pingui_controller) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller/first_node.py -> /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller\n'}
+[8.010673] (pingui_controller) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller/__init__.py to __init__.cpython-312.pyc\n'}
+[8.011453] (sensores) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores/gps.py -> /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores\n'}
+[8.012309] (sensores) StdoutLine: {'line': b'copying /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores/ultrasonico.py -> /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores\n'}
+[8.012879] (pingui_controller) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller/first_node.py to first_node.cpython-312.pyc\n'}
+[8.013643] (sensores) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores/__init__.py to __init__.cpython-312.pyc\n'}
+[8.014380] (sensores) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores/imu.py to imu.cpython-312.pyc\n'}
+[8.014992] (pingui_controller) StdoutLine: {'line': b'running install_data\n'}
+[8.015610] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index\n'}
+[8.016828] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index/resource_index\n'}
+[8.020668] (pingui_controller) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index/resource_index/packages\n'}
+[8.021488] (sensores) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores/bumper.py to bumper.cpython-312.pyc\n'}
+[8.022074] (pingui_controller) StdoutLine: {'line': b'copying resource/pingui_controller -> /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index/resource_index/packages\n'}
+[8.022883] (sensores) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores/gps.py to gps.cpython-312.pyc\n'}
+[8.023523] (pingui_controller) StdoutLine: {'line': b'copying package.xml -> /home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller\n'}
+[8.026954] (pingui_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.027535] (sensores) StdoutLine: {'line': b'byte-compiling /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores/ultrasonico.py to ultrasonico.cpython-312.pyc\n'}
+[8.028152] (sensores) StdoutLine: {'line': b'running install_data\n'}
+[8.028724] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/sensores/share/ament_index\n'}
+[8.029206] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/sensores/share/ament_index/resource_index\n'}
+[8.033013] (sensores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/sensores/share/ament_index/resource_index/packages\n'}
+[8.033505] (sensores) StdoutLine: {'line': b'copying resource/sensores -> /home/captainp/brain_captainp/src/install/sensores/share/ament_index/resource_index/packages\n'}
+[8.033982] (sensores) StdoutLine: {'line': b'copying package.xml -> /home/captainp/brain_captainp/src/install/sensores/share/sensores\n'}
+[8.034711] (sensores) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.082490] (-) TimerEvent: {}
+[8.158740] (pingui_controller) StdoutLine: {'line': b'Copying ../build/pingui_controller/pingui_controller.egg-info to /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller-0.0.0-py3.12.egg-info\n'}
+[8.170378] (pingui_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[8.181679] (sensores) StdoutLine: {'line': b'Copying ../build/sensores/sensores.egg-info to /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores-0.0.0-py3.12.egg-info\n'}
+[8.182653] (-) TimerEvent: {}
+[8.190815] (sensores) StdoutLine: {'line': b'running install_scripts\n'}
+[8.282837] (-) TimerEvent: {}
+[8.383511] (-) TimerEvent: {}
+[8.485396] (-) TimerEvent: {}
+[8.586105] (-) TimerEvent: {}
+[8.689713] (-) TimerEvent: {}
+[8.790494] (-) TimerEvent: {}
+[8.891278] (-) TimerEvent: {}
+[8.992702] (-) TimerEvent: {}
+[9.094405] (-) TimerEvent: {}
+[9.197584] (-) TimerEvent: {}
+[9.256988] (sensores) StdoutLine: {'line': b'Installing bridge script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores\n'}
+[9.266263] (sensores) StdoutLine: {'line': b"writing list of installed files to '/home/captainp/brain_captainp/src/build/sensores/install.log'\n"}
+[9.299427] (-) TimerEvent: {}
+[9.409632] (-) TimerEvent: {}
+[9.474882] (pingui_controller) StdoutLine: {'line': b'Installing test_node script to /home/captainp/brain_captainp/src/install/pingui_controller/lib/pingui_controller\n'}
+[9.482433] (pingui_controller) StdoutLine: {'line': b"writing list of installed files to '/home/captainp/brain_captainp/src/build/pingui_controller/install.log'\n"}
+[9.503138] (sensores) CommandEnded: {'returncode': 0}
+[9.519014] (-) TimerEvent: {}
+[9.647962] (-) TimerEvent: {}
+[9.686097] (sensores) JobEnded: {'identifier': 'sensores', 'rc': 0}
+[9.723015] (pingui_controller) CommandEnded: {'returncode': 0}
+[9.764420] (-) TimerEvent: {}
+[9.805788] (pingui_controller) JobEnded: {'identifier': 'pingui_controller', 'rc': 0}
+[9.813187] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+[console_scripts]
+test_bumper = sensores.bumper:main
+test_gps = sensores.gps:main
+test_imu = sensores.imu:main
+test_ultrasonico = sensores.ultrasonico:main

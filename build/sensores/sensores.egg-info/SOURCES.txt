@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+resource/sensores
+sensores/__init__.py
+sensores/bumper.py
+sensores/gps.py
+sensores/imu.py
+sensores/ultrasonico.py
+sensores.egg-info/PKG-INFO
+sensores.egg-info/SOURCES.txt
+sensores.egg-info/dependency_links.txt
+sensores.egg-info/entry_points.txt
+sensores.egg-info/requires.txt
+sensores.egg-info/top_level.txt
+sensores.egg-info/zip-safe

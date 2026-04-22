@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing sensores.egg-info/PKG-INFO
+writing dependency_links to sensores.egg-info/dependency_links.txt
+writing entry points to sensores.egg-info/entry_points.txt
+writing requirements to sensores.egg-info/requires.txt
+writing top-level names to sensores.egg-info/top_level.txt
+reading manifest file 'sensores.egg-info/SOURCES.txt'
+writing manifest file 'sensores.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores.egg-link (link to .)
+Installing test_bumper script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+Installing test_gps script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+Installing test_imu script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+Installing test_ultrasonico script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+
+Installed /home/captainp/brain_captainp/src/build/sensores
+running symlink_data
+symbolically linking /home/captainp/brain_captainp/src/build/sensores/resource/sensores -> /home/captainp/brain_captainp/src/install/sensores/share/ament_index/resource_index/packages
+symbolically linking /home/captainp/brain_captainp/src/build/sensores/package.xml -> /home/captainp/brain_captainp/src/install/sensores/share/sensores

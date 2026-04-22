@@ -1,0 +1,22 @@
+[11.179s] Invoking command in '/home/captainp/brain_captainp/src/build/motores': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/motores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/motores/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/captainp/brain_captainp/src/build/motores/build --no-deps symlink_data
+[15.647s] running develop
+[17.824s] running egg_info
+[17.825s] creating motores.egg-info
+[17.982s] writing motores.egg-info/PKG-INFO
+[17.983s] writing dependency_links to motores.egg-info/dependency_links.txt
+[17.984s] writing requirements to motores.egg-info/requires.txt
+[17.985s] writing top-level names to motores.egg-info/top_level.txt
+[17.985s] writing manifest file 'motores.egg-info/SOURCES.txt'
+[18.289s] reading manifest file 'motores.egg-info/SOURCES.txt'
+[18.294s] writing manifest file 'motores.egg-info/SOURCES.txt'
+[18.431s] running build_ext
+[18.432s] Creating /home/captainp/brain_captainp/src/install/motores/lib/python3.12/site-packages/motores.egg-link (link to .)
+[18.437s] 
+[18.439s] Installed /home/captainp/brain_captainp/src/build/motores
+[18.441s] running symlink_data
+[18.442s] creating /home/captainp/brain_captainp/src/install/motores/share/ament_index
+[18.444s] creating /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index
+[18.446s] creating /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index/packages
+[18.450s] symbolically linking /home/captainp/brain_captainp/src/build/motores/resource/motores -> /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index/packages
+[18.454s] symbolically linking /home/captainp/brain_captainp/src/build/motores/package.xml -> /home/captainp/brain_captainp/src/install/motores/share/motores
+[18.688s] Invoked command in '/home/captainp/brain_captainp/src/build/motores' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/motores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/motores/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/captainp/brain_captainp/src/build/motores/build --no-deps symlink_data

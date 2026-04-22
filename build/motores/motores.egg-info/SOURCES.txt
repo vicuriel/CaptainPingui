@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+motores/__init__.py
+motores.egg-info/PKG-INFO
+motores.egg-info/SOURCES.txt
+motores.egg-info/dependency_links.txt
+motores.egg-info/requires.txt
+motores.egg-info/top_level.txt
+motores.egg-info/zip-safe
+resource/motores

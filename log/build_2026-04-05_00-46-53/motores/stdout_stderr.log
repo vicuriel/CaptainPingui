@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating motores.egg-info
+writing motores.egg-info/PKG-INFO
+writing dependency_links to motores.egg-info/dependency_links.txt
+writing requirements to motores.egg-info/requires.txt
+writing top-level names to motores.egg-info/top_level.txt
+writing manifest file 'motores.egg-info/SOURCES.txt'
+reading manifest file 'motores.egg-info/SOURCES.txt'
+writing manifest file 'motores.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/captainp/brain_captainp/src/install/motores/lib/python3.12/site-packages/motores.egg-link (link to .)
+
+Installed /home/captainp/brain_captainp/src/build/motores
+running symlink_data
+creating /home/captainp/brain_captainp/src/install/motores/share/ament_index
+creating /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index
+creating /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index/packages
+symbolically linking /home/captainp/brain_captainp/src/build/motores/resource/motores -> /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index/packages
+symbolically linking /home/captainp/brain_captainp/src/build/motores/package.xml -> /home/captainp/brain_captainp/src/install/motores/share/motores

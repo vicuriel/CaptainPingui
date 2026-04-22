@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000698] (motores) JobQueued: {'identifier': 'motores', 'dependencies': OrderedDict()}
+[0.006928] (sensores) JobQueued: {'identifier': 'sensores', 'dependencies': OrderedDict()}
+[0.008874] (motores) JobStarted: {'identifier': 'motores'}
+[0.083152] (sensores) JobStarted: {'identifier': 'sensores'}
+[0.100155] (-) TimerEvent: {}
+[0.200904] (-) TimerEvent: {}
+[0.302127] (-) TimerEvent: {}
+[0.404897] (-) TimerEvent: {}
+[0.505738] (-) TimerEvent: {}
+[0.606523] (-) TimerEvent: {}
+[0.707734] (-) TimerEvent: {}
+[0.810758] (-) TimerEvent: {}
+[0.914329] (-) TimerEvent: {}
+[1.019268] (-) TimerEvent: {}
+[1.121084] (-) TimerEvent: {}
+[1.224704] (-) TimerEvent: {}
+[1.327483] (-) TimerEvent: {}
+[1.429496] (-) TimerEvent: {}
+[1.530704] (-) TimerEvent: {}
+[1.637200] (-) TimerEvent: {}
+[1.744685] (-) TimerEvent: {}
+[1.846180] (-) TimerEvent: {}
+[1.951458] (-) TimerEvent: {}
+[2.055770] (-) TimerEvent: {}
+[2.156653] (-) TimerEvent: {}
+[2.257520] (-) TimerEvent: {}
+[2.358329] (-) TimerEvent: {}
+[2.461653] (-) TimerEvent: {}
+[2.567314] (-) TimerEvent: {}
+[2.668970] (-) TimerEvent: {}
+[2.773921] (-) TimerEvent: {}
+[2.874813] (-) TimerEvent: {}
+[2.975690] (-) TimerEvent: {}
+[3.080554] (-) TimerEvent: {}
+[3.182412] (-) TimerEvent: {}
+[3.284748] (-) TimerEvent: {}
+[3.390480] (-) TimerEvent: {}
+[3.495322] (-) TimerEvent: {}
+[3.599774] (-) TimerEvent: {}
+[3.702948] (-) TimerEvent: {}
+[3.803696] (-) TimerEvent: {}
+[3.906668] (-) TimerEvent: {}
+[4.010220] (-) TimerEvent: {}
+[4.114455] (-) TimerEvent: {}
+[4.216748] (-) TimerEvent: {}
+[4.330332] (-) TimerEvent: {}
+[4.451709] (-) TimerEvent: {}
+[4.560817] (-) TimerEvent: {}
+[4.661701] (-) TimerEvent: {}
+[4.762460] (-) TimerEvent: {}
+[4.866541] (-) TimerEvent: {}
+[4.973854] (-) TimerEvent: {}
+[5.075726] (-) TimerEvent: {}
+[5.182831] (-) TimerEvent: {}
+[5.293774] (-) TimerEvent: {}
+[5.402398] (-) TimerEvent: {}
+[5.506225] (-) TimerEvent: {}
+[5.609680] (-) TimerEvent: {}
+[5.715792] (-) TimerEvent: {}
+[5.822171] (-) TimerEvent: {}
+[5.924256] (-) TimerEvent: {}
+[6.031717] (-) TimerEvent: {}
+[6.132527] (-) TimerEvent: {}
+[6.235537] (-) TimerEvent: {}
+[6.336959] (-) TimerEvent: {}
+[6.442724] (-) TimerEvent: {}
+[6.545749] (-) TimerEvent: {}
+[6.648787] (-) TimerEvent: {}
+[6.749898] (-) TimerEvent: {}
+[6.851524] (-) TimerEvent: {}
+[6.952349] (-) TimerEvent: {}
+[7.055985] (-) TimerEvent: {}
+[7.160769] (-) TimerEvent: {}
+[7.262792] (-) TimerEvent: {}
+[7.363754] (-) TimerEvent: {}
+[7.464731] (-) TimerEvent: {}
+[7.568372] (-) TimerEvent: {}
+[7.669991] (-) TimerEvent: {}
+[7.771788] (-) TimerEvent: {}
+[7.875718] (-) TimerEvent: {}
+[7.979757] (-) TimerEvent: {}
+[8.080552] (-) TimerEvent: {}
+[8.183720] (-) TimerEvent: {}
+[8.284563] (-) TimerEvent: {}
+[8.389725] (-) TimerEvent: {}
+[8.493914] (-) TimerEvent: {}
+[8.599743] (-) TimerEvent: {}
+[8.700516] (-) TimerEvent: {}
+[8.803741] (-) TimerEvent: {}
+[8.911828] (-) TimerEvent: {}
+[9.014745] (-) TimerEvent: {}
+[9.118747] (-) TimerEvent: {}
+[9.227723] (-) TimerEvent: {}
+[9.333369] (-) TimerEvent: {}
+[9.435800] (-) TimerEvent: {}
+[9.536655] (-) TimerEvent: {}
+[9.639787] (-) TimerEvent: {}
+[9.740496] (-) TimerEvent: {}
+[9.841397] (-) TimerEvent: {}
+[9.942162] (-) TimerEvent: {}
+[10.042883] (-) TimerEvent: {}
+[10.147036] (-) TimerEvent: {}
+[10.257749] (-) TimerEvent: {}
+[10.361998] (-) TimerEvent: {}
+[10.464747] (-) TimerEvent: {}
+[10.565953] (-) TimerEvent: {}
+[10.667212] (-) TimerEvent: {}
+[10.769993] (-) TimerEvent: {}
+[10.870932] (-) TimerEvent: {}
+[10.972173] (-) TimerEvent: {}
+[11.076089] (-) TimerEvent: {}
+[11.180882] (motores) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/captainp/brain_captainp/src/build/motores/build', '--no-deps', 'symlink_data'], 'cwd': '/home/captainp/brain_captainp/src/build/motores', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'captainp', 'SSH_AGENT_PID': '5598', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/captainp', 'OLDPWD': '/home/captainp/brain_captainp', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-vOKqaxkHdK,guid=664fec109022f0bd055b2ccb69d18ac4', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/captainp/.cache/keyring-WZ9ON3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/captainp/brain_captainp/install:/home/captainp/brain_captainp/src/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'captainp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/CaptainP:@/tmp/.ICE-unix/5398,unix/CaptainP:/tmp/.ICE-unix/5398', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b0177f23_e5cf_429b_bc8d_36aeaadb4138', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/home/captainp/.cache/keyring-WZ9ON3/ssh', 'AMENT_PREFIX_PATH': '/home/captainp/brain_captainp/install/sensores:/home/captainp/brain_captainp/install/pingui_controller:/home/captainp/brain_captainp/src/install/sensores:/home/captainp/brain_captainp/src/install/pingui_controller:/opt/ros/jazzy', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/captainp/brain_captainp/src/build/motores', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/captainp/brain_captainp/src/build/motores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/motores/lib/python3.12/site-packages:/home/captainp/brain_captainp/install/sensores/lib/python3.12/site-packages:/home/captainp/brain_captainp/install/pingui_controller/lib/python3.12/site-packages:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.189268] (-) TimerEvent: {}
+[11.247959] (sensores) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/captainp/brain_captainp/src/build/sensores/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/captainp/brain_captainp/src/build/sensores', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'captainp', 'SSH_AGENT_PID': '5598', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/captainp', 'OLDPWD': '/home/captainp/brain_captainp', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/tmp/dbus-vOKqaxkHdK,guid=664fec109022f0bd055b2ccb69d18ac4', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/home/captainp/.cache/keyring-WZ9ON3', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/captainp/brain_captainp/install:/home/captainp/brain_captainp/src/install', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'captainp', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/CaptainP:@/tmp/.ICE-unix/5398,unix/CaptainP:/tmp/.ICE-unix/5398', 'XDG_MENU_PREFIX': 'gnome-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b0177f23_e5cf_429b_bc8d_36aeaadb4138', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.82', 'SSH_AUTH_SOCK': '/home/captainp/.cache/keyring-WZ9ON3/ssh', 'AMENT_PREFIX_PATH': '/home/captainp/brain_captainp/install/sensores:/home/captainp/brain_captainp/install/pingui_controller:/home/captainp/brain_captainp/src/install/sensores:/home/captainp/brain_captainp/src/install/pingui_controller:/opt/ros/jazzy', 'UID': '1000', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/captainp/brain_captainp/src/build/sensores', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/captainp/brain_captainp/src/build/sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:/home/captainp/brain_captainp/install/sensores/lib/python3.12/site-packages:/home/captainp/brain_captainp/install/pingui_controller/lib/python3.12/site-packages:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[11.289486] (-) TimerEvent: {}
+[11.390242] (-) TimerEvent: {}
+[11.493404] (-) TimerEvent: {}
+[11.599011] (-) TimerEvent: {}
+[11.699957] (-) TimerEvent: {}
+[11.802781] (-) TimerEvent: {}
+[11.903552] (-) TimerEvent: {}
+[12.008770] (-) TimerEvent: {}
+[12.118712] (-) TimerEvent: {}
+[12.221916] (-) TimerEvent: {}
+[12.325146] (-) TimerEvent: {}
+[12.431920] (-) TimerEvent: {}
+[12.535399] (-) TimerEvent: {}
+[12.655239] (-) TimerEvent: {}
+[12.756329] (-) TimerEvent: {}
+[12.857207] (-) TimerEvent: {}
+[12.960853] (-) TimerEvent: {}
+[13.061654] (-) TimerEvent: {}
+[13.166999] (-) TimerEvent: {}
+[13.267820] (-) TimerEvent: {}
+[13.368990] (-) TimerEvent: {}
+[13.469768] (-) TimerEvent: {}
+[13.570514] (-) TimerEvent: {}
+[13.673788] (-) TimerEvent: {}
+[13.774535] (-) TimerEvent: {}
+[13.875336] (-) TimerEvent: {}
+[13.979902] (-) TimerEvent: {}
+[14.081697] (-) TimerEvent: {}
+[14.187755] (-) TimerEvent: {}
+[14.288746] (-) TimerEvent: {}
+[14.394116] (-) TimerEvent: {}
+[14.397733] (sensores) StdoutLine: {'line': b'running develop\n'}
+[14.496762] (-) TimerEvent: {}
+[14.599721] (-) TimerEvent: {}
+[14.700482] (-) TimerEvent: {}
+[14.801409] (-) TimerEvent: {}
+[14.904718] (-) TimerEvent: {}
+[15.005492] (-) TimerEvent: {}
+[15.108459] (-) TimerEvent: {}
+[15.211750] (-) TimerEvent: {}
+[15.312795] (-) TimerEvent: {}
+[15.415738] (-) TimerEvent: {}
+[15.520918] (-) TimerEvent: {}
+[15.622104] (-) TimerEvent: {}
+[15.655749] (motores) StdoutLine: {'line': b'running develop\n'}
+[15.722311] (-) TimerEvent: {}
+[15.823269] (-) TimerEvent: {}
+[15.928104] (-) TimerEvent: {}
+[16.037545] (-) TimerEvent: {}
+[16.142420] (-) TimerEvent: {}
+[16.247757] (-) TimerEvent: {}
+[16.348542] (-) TimerEvent: {}
+[16.454700] (-) TimerEvent: {}
+[16.557424] (-) TimerEvent: {}
+[16.660448] (-) TimerEvent: {}
+[16.744284] (sensores) StdoutLine: {'line': b'running egg_info\n'}
+[16.763771] (-) TimerEvent: {}
+[16.864943] (-) TimerEvent: {}
+[16.923291] (sensores) StdoutLine: {'line': b'writing sensores.egg-info/PKG-INFO\n'}
+[16.924085] (sensores) StdoutLine: {'line': b'writing dependency_links to sensores.egg-info/dependency_links.txt\n'}
+[16.924673] (sensores) StdoutLine: {'line': b'writing entry points to sensores.egg-info/entry_points.txt\n'}
+[16.925287] (sensores) StdoutLine: {'line': b'writing requirements to sensores.egg-info/requires.txt\n'}
+[16.931491] (sensores) StdoutLine: {'line': b'writing top-level names to sensores.egg-info/top_level.txt\n'}
+[16.965799] (-) TimerEvent: {}
+[17.066643] (-) TimerEvent: {}
+[17.168759] (-) TimerEvent: {}
+[17.267180] (sensores) StdoutLine: {'line': b"reading manifest file 'sensores.egg-info/SOURCES.txt'\n"}
+[17.270736] (-) TimerEvent: {}
+[17.274011] (sensores) StdoutLine: {'line': b"writing manifest file 'sensores.egg-info/SOURCES.txt'\n"}
+[17.373736] (-) TimerEvent: {}
+[17.474558] (-) TimerEvent: {}
+[17.523742] (sensores) StdoutLine: {'line': b'running build_ext\n'}
+[17.530130] (sensores) StdoutLine: {'line': b'Creating /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores.egg-link (link to .)\n'}
+[17.541374] (sensores) StdoutLine: {'line': b'Installing test_bumper script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores\n'}
+[17.542100] (sensores) StdoutLine: {'line': b'Installing test_gps script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores\n'}
+[17.551283] (sensores) StdoutLine: {'line': b'Installing test_imu script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores\n'}
+[17.555962] (sensores) StdoutLine: {'line': b'Installing test_ultrasonico script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores\n'}
+[17.559392] (sensores) StdoutLine: {'line': b'\n'}
+[17.561288] (sensores) StdoutLine: {'line': b'Installed /home/captainp/brain_captainp/src/build/sensores\n'}
+[17.561961] (sensores) StdoutLine: {'line': b'running symlink_data\n'}
+[17.565121] (sensores) StdoutLine: {'line': b'symbolically linking /home/captainp/brain_captainp/src/build/sensores/resource/sensores -> /home/captainp/brain_captainp/src/install/sensores/share/ament_index/resource_index/packages\n'}
+[17.566081] (sensores) StdoutLine: {'line': b'symbolically linking /home/captainp/brain_captainp/src/build/sensores/package.xml -> /home/captainp/brain_captainp/src/install/sensores/share/sensores\n'}
+[17.578739] (-) TimerEvent: {}
+[17.679819] (-) TimerEvent: {}
+[17.783833] (-) TimerEvent: {}
+[17.828144] (motores) StdoutLine: {'line': b'running egg_info\n'}
+[17.833449] (motores) StdoutLine: {'line': b'creating motores.egg-info\n'}
+[17.834269] (sensores) CommandEnded: {'returncode': 0}
+[17.884385] (-) TimerEvent: {}
+[17.942860] (sensores) JobEnded: {'identifier': 'sensores', 'rc': 0}
+[17.984670] (-) TimerEvent: {}
+[17.990855] (motores) StdoutLine: {'line': b'writing motores.egg-info/PKG-INFO\n'}
+[17.991682] (motores) StdoutLine: {'line': b'writing dependency_links to motores.egg-info/dependency_links.txt\n'}
+[17.992466] (motores) StdoutLine: {'line': b'writing requirements to motores.egg-info/requires.txt\n'}
+[17.993213] (motores) StdoutLine: {'line': b'writing top-level names to motores.egg-info/top_level.txt\n'}
+[17.993765] (motores) StdoutLine: {'line': b"writing manifest file 'motores.egg-info/SOURCES.txt'\n"}
+[18.086958] (-) TimerEvent: {}
+[18.190141] (-) TimerEvent: {}
+[18.290813] (-) TimerEvent: {}
+[18.297788] (motores) StdoutLine: {'line': b"reading manifest file 'motores.egg-info/SOURCES.txt'\n"}
+[18.302012] (motores) StdoutLine: {'line': b"writing manifest file 'motores.egg-info/SOURCES.txt'\n"}
+[18.391018] (-) TimerEvent: {}
+[18.439778] (motores) StdoutLine: {'line': b'running build_ext\n'}
+[18.440843] (motores) StdoutLine: {'line': b'Creating /home/captainp/brain_captainp/src/install/motores/lib/python3.12/site-packages/motores.egg-link (link to .)\n'}
+[18.442511] (motores) StdoutLine: {'line': b'\n'}
+[18.446540] (motores) StdoutLine: {'line': b'Installed /home/captainp/brain_captainp/src/build/motores\n'}
+[18.448099] (motores) StdoutLine: {'line': b'running symlink_data\n'}
+[18.450108] (motores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/motores/share/ament_index\n'}
+[18.451867] (motores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index\n'}
+[18.453910] (motores) StdoutLine: {'line': b'creating /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index/packages\n'}
+[18.455371] (motores) StdoutLine: {'line': b'symbolically linking /home/captainp/brain_captainp/src/build/motores/resource/motores -> /home/captainp/brain_captainp/src/install/motores/share/ament_index/resource_index/packages\n'}
+[18.459371] (motores) StdoutLine: {'line': b'symbolically linking /home/captainp/brain_captainp/src/build/motores/package.xml -> /home/captainp/brain_captainp/src/install/motores/share/motores\n'}
+[18.491360] (-) TimerEvent: {}
+[18.619485] (-) TimerEvent: {}
+[18.696522] (motores) CommandEnded: {'returncode': 0}
+[18.719947] (-) TimerEvent: {}
+[18.773045] (motores) JobEnded: {'identifier': 'motores', 'rc': 0}
+[18.777668] (-) EventReactorShutdown: {}

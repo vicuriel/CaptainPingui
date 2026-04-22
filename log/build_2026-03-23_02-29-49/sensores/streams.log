@@ -1,0 +1,27 @@
+[6.175s] Invoking command in '/home/captainp/brain_captainp/src/sensores': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensores build --build-base /home/captainp/brain_captainp/src/build/sensores/build install --record /home/captainp/brain_captainp/src/build/sensores/install.log --single-version-externally-managed install_data
+[7.901s] running egg_info
+[8.019s] writing ../build/sensores/sensores.egg-info/PKG-INFO
+[8.024s] writing dependency_links to ../build/sensores/sensores.egg-info/dependency_links.txt
+[8.036s] writing entry points to ../build/sensores/sensores.egg-info/entry_points.txt
+[8.040s] writing requirements to ../build/sensores/sensores.egg-info/requires.txt
+[8.041s] writing top-level names to ../build/sensores/sensores.egg-info/top_level.txt
+[8.281s] reading manifest file '../build/sensores/sensores.egg-info/SOURCES.txt'
+[8.285s] writing manifest file '../build/sensores/sensores.egg-info/SOURCES.txt'
+[8.285s] running build
+[8.286s] running build_py
+[8.287s] copying sensores/imu.py -> /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores
+[8.290s] running install
+[8.318s] running install_lib
+[8.452s] copying /home/captainp/brain_captainp/src/build/sensores/build/lib/sensores/imu.py -> /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores
+[8.455s] byte-compiling /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores/imu.py to imu.cpython-312.pyc
+[8.462s] running install_data
+[8.464s] running install_egg_info
+[8.616s] removing '/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores-0.0.0-py3.12.egg-info' (and everything under it)
+[8.620s] Copying ../build/sensores/sensores.egg-info to /home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages/sensores-0.0.0-py3.12.egg-info
+[8.627s] running install_scripts
+[9.528s] Installing test_bumper script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+[9.530s] Installing test_gps script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+[9.533s] Installing test_imu script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+[9.534s] Installing test_ultrasonico script to /home/captainp/brain_captainp/src/install/sensores/lib/sensores
+[9.537s] writing list of installed files to '/home/captainp/brain_captainp/src/build/sensores/install.log'
+[9.793s] Invoked command in '/home/captainp/brain_captainp/src/sensores' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensores build --build-base /home/captainp/brain_captainp/src/build/sensores/build install --record /home/captainp/brain_captainp/src/build/sensores/install.log --single-version-externally-managed install_data

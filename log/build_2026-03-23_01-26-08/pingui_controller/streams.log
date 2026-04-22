@@ -1,0 +1,37 @@
+[5.899s] Invoking command in '/home/captainp/brain_captainp/src/pingui_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pingui_controller build --build-base /home/captainp/brain_captainp/src/build/pingui_controller/build install --record /home/captainp/brain_captainp/src/build/pingui_controller/install.log --single-version-externally-managed install_data
+[7.429s] running egg_info
+[7.430s] creating ../build/pingui_controller/pingui_controller.egg-info
+[7.544s] writing ../build/pingui_controller/pingui_controller.egg-info/PKG-INFO
+[7.545s] writing dependency_links to ../build/pingui_controller/pingui_controller.egg-info/dependency_links.txt
+[7.547s] writing entry points to ../build/pingui_controller/pingui_controller.egg-info/entry_points.txt
+[7.550s] writing requirements to ../build/pingui_controller/pingui_controller.egg-info/requires.txt
+[7.550s] writing top-level names to ../build/pingui_controller/pingui_controller.egg-info/top_level.txt
+[7.551s] writing manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'
+[7.833s] reading manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'
+[7.836s] writing manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'
+[7.837s] running build
+[7.837s] running build_py
+[7.841s] creating /home/captainp/brain_captainp/src/build/pingui_controller/build
+[7.841s] creating /home/captainp/brain_captainp/src/build/pingui_controller/build/lib
+[7.843s] creating /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller
+[7.843s] copying pingui_controller/__init__.py -> /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller
+[7.844s] copying pingui_controller/first_node.py -> /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller
+[7.845s] running install
+[7.872s] running install_lib
+[7.995s] creating /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller
+[7.997s] copying /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller/__init__.py -> /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller
+[8.008s] copying /home/captainp/brain_captainp/src/build/pingui_controller/build/lib/pingui_controller/first_node.py -> /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller
+[8.008s] byte-compiling /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller/__init__.py to __init__.cpython-312.pyc
+[8.011s] byte-compiling /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller/first_node.py to first_node.cpython-312.pyc
+[8.013s] running install_data
+[8.014s] creating /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index
+[8.018s] creating /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index/resource_index
+[8.019s] creating /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index/resource_index/packages
+[8.020s] copying resource/pingui_controller -> /home/captainp/brain_captainp/src/install/pingui_controller/share/ament_index/resource_index/packages
+[8.024s] copying package.xml -> /home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller
+[8.025s] running install_egg_info
+[8.157s] Copying ../build/pingui_controller/pingui_controller.egg-info to /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller-0.0.0-py3.12.egg-info
+[8.168s] running install_scripts
+[9.474s] Installing test_node script to /home/captainp/brain_captainp/src/install/pingui_controller/lib/pingui_controller
+[9.480s] writing list of installed files to '/home/captainp/brain_captainp/src/build/pingui_controller/install.log'
+[9.722s] Invoked command in '/home/captainp/brain_captainp/src/pingui_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pingui_controller build --build-base /home/captainp/brain_captainp/src/build/pingui_controller/build install --record /home/captainp/brain_captainp/src/build/pingui_controller/install.log --single-version-externally-managed install_data

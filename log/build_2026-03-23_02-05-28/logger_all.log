@@ -1,0 +1,164 @@
+[0.472s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.472s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9f701310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa0271d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa0271d90>>)
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.661s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.661s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/captainp/brain_captainp/src'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extension 'colcon_meta'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extensions ['ros']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(pingui_controller) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'pingui_controller' with type 'ros.ament_python' and name 'pingui_controller'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extension 'colcon_meta'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extensions ['ros']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(sensores) by extension 'ros'
+[0.797s] DEBUG:colcon.colcon_core.package_identification:Package 'sensores' with type 'ros.ament_python' and name 'sensores'
+[0.797s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.880s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.890s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/captainp/brain_captainp/src/install
+[0.892s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/captainp/brain_captainp/install
+[0.904s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.908s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'cmake_args' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'cmake_target' from command line to 'None'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.117s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.118s] Level 5:colcon.colcon_core.verb:set package 'pingui_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.118s] DEBUG:colcon.colcon_core.verb:Building package 'pingui_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/captainp/brain_captainp/src/build/pingui_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/captainp/brain_captainp/src/install/pingui_controller', 'merge_install': False, 'path': '/home/captainp/brain_captainp/src/pingui_controller', 'symlink_install': False, 'test_result_base': None}
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'cmake_args' from command line to 'None'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'cmake_target' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'cmake_clean_cache' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'cmake_clean_first' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'cmake_force_configure' from command line to 'False'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'ament_cmake_args' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'catkin_cmake_args' from command line to 'None'
+[1.120s] Level 5:colcon.colcon_core.verb:set package 'sensores' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.120s] DEBUG:colcon.colcon_core.verb:Building package 'sensores' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/captainp/brain_captainp/src/build/sensores', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/captainp/brain_captainp/src/install/sensores', 'merge_install': False, 'path': '/home/captainp/brain_captainp/src/sensores', 'symlink_install': False, 'test_result_base': None}
+[1.121s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.124s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.125s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/captainp/brain_captainp/src/pingui_controller' with build type 'ament_python'
+[1.126s] Level 1:colcon.colcon_core.shell:create_environment_hook('pingui_controller', 'ament_prefix_path')
+[1.138s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/hook/ament_prefix_path.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/hook/ament_prefix_path.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/hook/ament_prefix_path.sh'
+[1.154s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.179s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/captainp/brain_captainp/src/sensores' with build type 'ament_python'
+[1.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensores', 'ament_prefix_path')
+[1.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/sensores/share/sensores/hook/ament_prefix_path.ps1'
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/captainp/brain_captainp/src/install/sensores/share/sensores/hook/ament_prefix_path.dsv'
+[1.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/sensores/share/sensores/hook/ament_prefix_path.sh'
+[1.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/captainp/brain_captainp/src/pingui_controller'
+[2.579s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.579s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.825s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/captainp/brain_captainp/src/sensores'
+[3.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/captainp/brain_captainp/src/sensores': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensores build --build-base /home/captainp/brain_captainp/src/build/sensores/build install --record /home/captainp/brain_captainp/src/build/sensores/install.log --single-version-externally-managed install_data
+[8.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/captainp/brain_captainp/src/pingui_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pingui_controller build --build-base /home/captainp/brain_captainp/src/build/pingui_controller/build install --record /home/captainp/brain_captainp/src/build/pingui_controller/install.log --single-version-externally-managed install_data
+[12.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/captainp/brain_captainp/src/sensores' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/sensores/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensores build --build-base /home/captainp/brain_captainp/src/build/sensores/build install --record /home/captainp/brain_captainp/src/build/sensores/install.log --single-version-externally-managed install_data
+[12.024s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores' for CMake module files
+[12.027s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores' for CMake config files
+[12.033s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores/lib'
+[12.035s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores/bin'
+[12.036s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores/lib/pkgconfig/sensores.pc'
+[12.038s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores/lib/python3.12/site-packages'
+[12.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensores', 'pythonpath')
+[12.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/sensores/share/sensores/hook/pythonpath.ps1'
+[12.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/captainp/brain_captainp/src/install/sensores/share/sensores/hook/pythonpath.dsv'
+[12.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/sensores/share/sensores/hook/pythonpath.sh'
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/sensores/bin'
+[12.067s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensores)
+[12.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/sensores/share/sensores/package.ps1'
+[12.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/captainp/brain_captainp/src/install/sensores/share/sensores/package.dsv'
+[12.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/sensores/share/sensores/package.sh'
+[12.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/sensores/share/sensores/package.bash'
+[12.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/sensores/share/sensores/package.zsh'
+[12.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/captainp/brain_captainp/src/install/sensores/share/colcon-core/packages/sensores)
+[12.270s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller' for CMake module files
+[12.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/captainp/brain_captainp/src/pingui_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pingui_controller build --build-base /home/captainp/brain_captainp/src/build/pingui_controller/build install --record /home/captainp/brain_captainp/src/build/pingui_controller/install.log --single-version-externally-managed install_data
+[12.283s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller' for CMake config files
+[12.292s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller/lib'
+[12.293s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller/bin'
+[12.294s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller/lib/pkgconfig/pingui_controller.pc'
+[12.296s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages'
+[12.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('pingui_controller', 'pythonpath')
+[12.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/hook/pythonpath.ps1'
+[12.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/hook/pythonpath.dsv'
+[12.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/hook/pythonpath.sh'
+[12.311s] Level 1:colcon.colcon_core.environment:checking '/home/captainp/brain_captainp/src/install/pingui_controller/bin'
+[12.311s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pingui_controller)
+[12.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/package.ps1'
+[12.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/package.dsv'
+[12.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/package.sh'
+[12.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/package.bash'
+[12.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/captainp/brain_captainp/src/install/pingui_controller/share/pingui_controller/package.zsh'
+[12.328s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/captainp/brain_captainp/src/install/pingui_controller/share/colcon-core/packages/pingui_controller)
+[12.330s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.332s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.333s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.334s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.363s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.461s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/captainp/brain_captainp/src/install/local_setup.ps1'
+[12.466s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/captainp/brain_captainp/src/install/_local_setup_util_ps1.py'
+[12.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/captainp/brain_captainp/src/install/setup.ps1'
+[12.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/captainp/brain_captainp/src/install/local_setup.sh'
+[12.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/captainp/brain_captainp/src/install/_local_setup_util_sh.py'
+[12.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/captainp/brain_captainp/src/install/setup.sh'
+[12.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/captainp/brain_captainp/src/install/local_setup.bash'
+[12.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/captainp/brain_captainp/src/install/setup.bash'
+[12.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/captainp/brain_captainp/src/install/local_setup.zsh'
+[12.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/captainp/brain_captainp/src/install/setup.zsh'

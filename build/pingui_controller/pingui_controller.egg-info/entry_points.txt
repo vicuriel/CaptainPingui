@@ -1,0 +1,2 @@
+[console_scripts]
+test_node = pingui_controller.first_node:main

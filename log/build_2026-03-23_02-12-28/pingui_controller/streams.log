@@ -1,0 +1,21 @@
+[6.820s] Invoking command in '/home/captainp/brain_captainp/src/pingui_controller': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pingui_controller build --build-base /home/captainp/brain_captainp/src/build/pingui_controller/build install --record /home/captainp/brain_captainp/src/build/pingui_controller/install.log --single-version-externally-managed install_data
+[8.697s] running egg_info
+[8.834s] writing ../build/pingui_controller/pingui_controller.egg-info/PKG-INFO
+[8.835s] writing dependency_links to ../build/pingui_controller/pingui_controller.egg-info/dependency_links.txt
+[8.836s] writing entry points to ../build/pingui_controller/pingui_controller.egg-info/entry_points.txt
+[8.838s] writing requirements to ../build/pingui_controller/pingui_controller.egg-info/requires.txt
+[8.841s] writing top-level names to ../build/pingui_controller/pingui_controller.egg-info/top_level.txt
+[9.176s] reading manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'
+[9.181s] writing manifest file '../build/pingui_controller/pingui_controller.egg-info/SOURCES.txt'
+[9.182s] running build
+[9.183s] running build_py
+[9.191s] running install
+[9.218s] running install_lib
+[9.414s] running install_data
+[9.414s] running install_egg_info
+[9.586s] removing '/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller-0.0.0-py3.12.egg-info' (and everything under it)
+[9.601s] Copying ../build/pingui_controller/pingui_controller.egg-info to /home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages/pingui_controller-0.0.0-py3.12.egg-info
+[9.606s] running install_scripts
+[10.715s] Installing test_node script to /home/captainp/brain_captainp/src/install/pingui_controller/lib/pingui_controller
+[10.718s] writing list of installed files to '/home/captainp/brain_captainp/src/build/pingui_controller/install.log'
+[10.940s] Invoked command in '/home/captainp/brain_captainp/src/pingui_controller' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/captainp/brain_captainp/src/build/pingui_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/captainp/brain_captainp/src/install/pingui_controller/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/pingui_controller build --build-base /home/captainp/brain_captainp/src/build/pingui_controller/build install --record /home/captainp/brain_captainp/src/build/pingui_controller/install.log --single-version-externally-managed install_data
